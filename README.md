@@ -94,9 +94,6 @@ All `N` paths and all months are simulated in pre-allocated NumPy arrays with th
 
 ## Dashboard
 
-<p align="center">
-  <img src="assets/cli_inputs.png" alt="Sidebar inputs" width="850">
-</p>
 
 Adjustable in the sidebar: current savings, monthly contribution, expected annual return, annual volatility, years to retirement, years in retirement, annual withdrawal, and number of simulations. The main panel updates live with three headline metrics (median final portfolio, probability of success, 5th-percentile worst case) and a percentile fan chart with a marker at the retirement-start date.
 
@@ -178,17 +175,6 @@ git push
 
 ---
 
-## Limitations
-
-This is an educational planning tool, not financial advice. Returns are modeled as i.i.d. normal monthly draws, which ignores fat tails, sequence-of-returns risk beyond what the simulation itself captures, inflation, taxes, and correlation across asset classes. Contributions and withdrawals are treated as fixed nominal amounts rather than inflation-adjusted.
-
----
-
-## Roadmap
-
-Inflation-adjusted contributions/withdrawals · variable/glide-path allocations · historical bootstrap resampling instead of normal shocks · Social Security and pension income streams · tax-aware withdrawal ordering · CSV/PDF export of results.
-
----
 
 ## Author
 
