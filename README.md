@@ -2,9 +2,6 @@
 
 ### Stochastic Retirement Planning Tool
 
-<p align="center">
-  <img src="assets/dashboard.png" alt="Retirement Simulator Dashboard" width="900">
-</p>
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-2.x-013243?style=for-the-badge&logo=numpy&logoColor=white)
